@@ -2,76 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>CPP</title>
-    <style>
-    @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-    .imgMiddle {
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    .column {
-    float: left;
-    width: 33.33%;
-    padding: 20px;
-    }
-    /* Clearfix (clear floats) */
-    .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
-    .middle{
-        display: table; 
-        margin-top: 5%;
-        margin-left: auto; 
-        margin-right: auto;
-    } 
-    .container:hover .overlay {
-    opacity: 1;
-    }
-
-    #cicularcrop{
-        width: 300px;
-        height:300px;
-        border-radius: 50%;
-        transition: transform .2s;
-        overflow: hidden;
-    }
-    #cicularcrop:hover{
-         transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
-    h1 {
-        font-size: 80px;
-        font-family: 'Nanum Gothic', sans-serif;
-    }
-    @media screen and (max-width: 1035px) {
-        .column {
-        width: 100%;
-        }
-    }
-    @media screen and (max-width: 750px) {
-        .column {
-        width: 100%;
-        }  
-        h1 {
-        font-size: 30px; 
-        }
-    }
-    </style>
+    <title>MeetTheCPP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <h1 class="middle">침펄풍을 만나보세요!</h1>
     <div class="middle">
         <div class ="row">
-        <a href="https://www.youtube.com/channel/UCUj6rrhMTR9pipbAWBAMvUQ" title="침착맨 유투브">
+        <a href="https://www.youtube.com/channel/UCUj6rrhMTR9pipbAWBAMvUQ" target="_blank" title="침착맨 유투브">
             <img class="column" id = "cicularcrop" src="cho.png" width=100%></a>
 
-        <a href="https://www.youtube.com/channel/UCFsyeRb-ShbdPQ2azhd6-fg" title="주호민 유튜브">
+        <a href="https://www.youtube.com/channel/UCFsyeRb-ShbdPQ2azhd6-fg" target="_blank" title="주호민 유튜브">
             <img class="column" id = "cicularcrop" src="pealo.jpg" width=100%></a>
 
-        <a href="https://www.youtube.com/channel/UCFsyeRb-ShbdPQ2azhd6-fg" title="주호민 유튜브">
+        <a href="https://www.youtube.com/channel/UCFsyeRb-ShbdPQ2azhd6-fg" target="_blank" title="주호민 유튜브">
             <img class="column" id = "cicularcrop" src="POOONGO.jpg" width=100%></a>
         </div>
     </div>
